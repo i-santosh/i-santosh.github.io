@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Santosh - Dev Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="leftnav">
+                <b>Santosh's Portfolio</b>
+            </div>
+            <div class="rightnav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="projects">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="pj">
+        
+        <div class="ptopic">
+            <h1>Projects</h1>
+        </div>
+        
+        <div class="projectLists">
+            <ul>
+                <li><a href="https://handscript.pythonanywhere.com/">Hand Script</a></li>
+                <li><a href="https://intellibot.santosh07.repl.co">intelliBot</a></li>
+                <li><a href="https://github.com/i-santosh/">More is on Github</a></li>
+            </ul>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="foot">
+            <span> &copy; <span id="cYear"></span> i-santosh.github.io</span>
+        </div>
+    </footer>
+    
+    <script>
+        document.getElementById("cYear").innerHTML = new Date().getFullYear();
+    </script>
+</body>
+</html>

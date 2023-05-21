@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: white;
+}
+
+body {
+    background: #006568;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #00474E;
+    height: 4rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-style: bold;
+}
+
+nav a:hover {
+    color: #00E2E3;
+    font-size: 1.03rem;
+}
+
+.leftnav {
+    font-size: 1.1rem;
+    color: white;
+}
+
+.rightnav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightnav ul li {
+    list-style: none;
+    margin: 0.1rem 0.5rem;
+}
+
+.mainsection {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+
+.mainsection section {
+    height: 19rem;
+    min-width: 20rem;
+    margin: 1rem;
+    color: white;
+}
+
+.devimg {
+    height: 20rem;
+    min-width: 20rem;
+    margin: 1rem;
+}
+
+.leftsec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftsec div {
+    margin-top: 1rem;
+}
+
+.purple {
+    background: whitesmoke;
+    color: #009F8D;
+    margin: 0.2rem;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+}
+
+#typed-text {
+    font-family: Verdana;
+    font-weight: bold;
+    color: #FF7025;
+}
+
+.divider {
+    border: 0;
+    background: whitesmoke;
+    height: 0.1rem;
+    margin: 0.2rem 2rem;
+    margin-bottom: 3rem;
+}
+
+.milestones {
+    display: flex-direction;
+    flex-direction: row;
+}
+
+.topic {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.milestoneline {
+    border: 0;
+    background: whitesmoke;
+    height: 0.2rem;
+    width: 3rem;
+    margin: 0 auto;
+    padding-bottom: 0;
+}
+
+.ms {
+    display: flex;
+    flex-direction: column;
+    width: 0.2rem;
+    height: 5rem;
+    margin: 0.2rem auto;
+    background: whitesmoke;
+}
+
+.achievementsLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1rem solid whitesmoke;
+    width: 8rem;
+    height: 3rem;
+    margin: 0.8rem auto;
+    margin-left: -8rem;
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 0.2rem;
+}
+.achievementsRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1rem solid whitesmoke;
+    width: 8rem;
+    height: 3rem;
+    margin: 0.8rem auto;
+    margin-left: 0.2rem;
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 0.2rem;
+}
+
+.orange {
+    border-color: #FF7B2F;
+}
+
+.white {
+    border-color: #00C972;
+}
+
+.red {
+    border-color: #FF3F67;
+}
+
+.green {
+    border-color: #5BFF7F;
+}
+
+.yellow {
+    border-color: #FFE659;
+}
+.pink {
+    border-color: #FF4EB1;
+}
+.blue {
+    border-color: #0090E7;
+}
+
+.foot {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.7rem;
+    background: #00474E;
+}
+
+
+.top h1 {
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.top h1 span {
+    font-size: 2rem;
+}
+
+.part2 {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.hd {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.hd .purple {
+    max-width: 20rem;
+    margin: 1rem auto;
+
+}
+
+.pj {
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pj a {
+    text-decoration: none;
+    color: white;
+}
+
+.pj .ptopic {
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
+    border: 0.1rem solid white;
+    border-radius: 0.2rem;
+}
+
+.pj ul li {
+    list-style: numbers;
+}
+
+.projectLists {
+    text-align: left;
+}
+
+.pic{
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+}
+.mypic{
+    height: 15rem;
+    width: auto;
+    border-radius: 50%;
+}
+

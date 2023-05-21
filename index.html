@@ -1,7 +1,99 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Santosh - Dev Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+    <header>
+        <nav>
+            <div class="leftnav">
+                <b>Santosh's Portfolio</b>
+            </div>
+            <div class="rightnav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="projects">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="mainsection">
+            <section class="leftsec">
+                <div class="aboutme">
+                    <h4>Hi, I am <span class="purple">Santosh</span></h4>
+                </div>
+                <div class="passion">
+                    <span>I am a</span>
+                    <span id="typed-text"></span>
+                </div>
+            </section>
+            <section class="rightsec">
+                <img src="dev.png" alt="" class="devimg">
+            </section>
+        </section>
+        <hr class="divider">
+
+        <section class="milestones">
+            <div class="topic">
+                Achievements
+            </div>
+            <div class="milestoneline"></div>
+            <div class="ms orange">
+                <span class="achievementsLeft orange">Python</span>
+            </div>
+            <div class="ms">
+                <span class="achievementsRight yellow">SQL</span>
+            </div>
+            <div class="ms">
+                <span class="achievementsLeft pink">HTML</span>
+            </div>
+            <div class="ms">
+                <span class="achievementsRight green">CSS</span>
+            </div>
+            <div class="ms">
+                <span class="achievementsLeft blue">JavaScript</span>
+            </div>
+            <div class="ms">
+                <span class="achievementsRight red">Django</span>
+            </div>
+            <div class="ms">
+                <span class="achievementsLeft white">C</span>
+            </div>
+            <div class="ms">
+                <span class="achievementsRight orange">C++</span>
+            </div>
+            <div class="ms">
+                <span class="achievementsLeft yellow">Java</span>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="foot">
+            <span> &copy; <span id="cYear"></span> i-santosh.github.io</span>
+        </div>
+    </footer>
+
+    <script>
+        var typed = new Typed('#typed-text', {
+            strings: ["Web Developer", "Web Designer", "App Developer", "Django Developer", "Python Programmer", "Full-Stack Developer"],
+            typeSpeed: 50,
+            backSpeed: 30,
+            loop: true
+        });
+
+        document.getElementById("cYear").innerHTML = new Date().getFullYear();
+    </script>
 </body>
 </html>
