@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Santosh - Dev Portfolio</title>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 </head>
@@ -30,7 +31,7 @@
         <section class="mainsection">
             <section class="leftsec">
                 <div class="aboutme">
-                    <h4>Hi, I am <span class="purple" id="myme">Santosh</span></h4>
+                    <h4>Hi, I am <span class="purple" id="myName">Santosh</span></h4>
                 </div>
                 <div class="passion">
                     <span>I am a</span>
@@ -91,7 +92,7 @@
         var i = 0;
 
 function updateText() {
-  document.getElementById("myName").innerHTML= name[i];
+  $("#myName").html(name[i]);
   i++;
   if (i >= name.length) {
     i = 0;
