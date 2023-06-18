@@ -30,7 +30,7 @@
         <section class="mainsection">
             <section class="leftsec">
                 <div class="aboutme">
-                    <h4>Hi, I am <span class="purple">Santosh</span></h4>
+                    <h4>Hi, I am <span class="purple" id="name">Santosh</span></h4>
                 </div>
                 <div class="passion">
                     <span>I am a</span>
@@ -87,6 +87,19 @@
     </footer>
 
     <script>
+        var name = ["Santosh", "sAntosh", "saNtosh", "sanTosh", "santOsh", "santoSh", "santosH"];
+        var i = 0;
+
+function updateText() {
+  document.getElementById("name").innerHTML= name[i];
+  i++;
+  if (i >= name.length) {
+    i = 0;
+  }
+}
+
+setInterval(updateText, 350);
+
         var typed = new Typed('#typed-text', {
             strings: ["Web Developer", "Web Designer", "App Developer", "Django Developer", "Python Programmer", "Full-Stack Developer"],
             typeSpeed: 50,
